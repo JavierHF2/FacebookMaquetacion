@@ -71,3 +71,17 @@ main img {
 .formulario fieldset {
     background-color: white;
 }
+
+
+.crear {
+    display: flex;
+    display:inline-flex;
+    align-items: center;
+    
+}
+
+.crear a {
+    text-decoration: none;
+    color: #0c0d11;
+    font-weight: bold;
+}
