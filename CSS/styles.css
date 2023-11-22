@@ -59,10 +59,15 @@ main img {
     background-color: #41b729;
     color: #fafcff;
     border-radius: 5px;
-    margin: 12px;
+    margin-top: 50px;
 }
 
 .formulario a{
     color: #3c85dd;
+    border-color: #0c0d11;
 
+}
+
+.formulario fieldset {
+    background-color: white;
 }
