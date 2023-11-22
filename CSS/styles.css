@@ -1,0 +1,68 @@
+html {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    background-color: #f1f3f6;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+
+}
+main img {
+    width: 500px;
+}
+
+.logo p {
+    color: #0c0d11;
+    font-size: 30px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.datos {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: #f1f3f6;
+}
+
+.campo input{
+    width: 300px;
+    border-radius: 5px;
+    border-color: #e9e9ea;
+    padding: 12px;
+    margin: 12px;
+}
+
+.campo input:hover{
+    border-color: #80accf;
+}
+
+.boton input{
+    width: 325px;
+    height: 45px;
+    background-color: #1977f1;
+    color: #fafcff;
+    border-radius: 5px;
+    margin: 12px;
+}
+
+.boton-cuenta input{
+    width: 325px;
+    height: 45px;
+    background-color: #41b729;
+    color: #fafcff;
+    border-radius: 5px;
+    margin: 12px;
+}
+
+.formulario a{
+    color: #3c85dd;
+
+}
